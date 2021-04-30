@@ -1,11 +1,9 @@
-window.alert("This is an alart! JS is running!");
+var enemyNames = ["Roborto", "Amy Android", "Robo Truble"]
+console.log(enemyNames)
 
-function fight() {
-    window.alert("The fight has begun!");
+for (var i = 0; i < 3; i++){
+    console.log("apple", i)
 }
 
-fight();
 
-var playerName = window.prompt("What is your robot's name?");
-
-console.log(playerName);
+// fight();
