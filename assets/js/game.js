@@ -1,10 +1,3 @@
-var enemyNames = ["Roborto", "Amy Android", "Robo Truble"]
-console.log(enemyNames)
+console.log(Math);
 
-for (var i = 0; i < 3; i++){
-    debugger;
-    console.log("apple", i)
-}
-
-
-// fight();
+localStorage.setItem("color", "red");
